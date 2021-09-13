@@ -62,7 +62,7 @@ There are several REST API modules as there are some differences in each API gro
 COIN-M and Vanilla Options connectors are not yet available, though contributions are welcome!
 
 ### REST Spot/Margin/etc
-Start by importing the spot client. API credentials are optiona, though an error is thrown when attempting any private API calls without credentials.
+Start by importing the spot client. API credentials are optional, though an error is thrown when attempting any private API calls without credentials.
 
 ```javascript
 const { MainClient } = require('binance');
